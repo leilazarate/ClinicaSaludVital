@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Clínica Salud Vital— Atención que acompaña</title>
+  <style>
+    :root{--accent:#ffffff;--blue:#00677D;--muted:#6b7280;--card:#ffffff}
+    *{box-sizing:border-box}body{margin:0;font-family:Inter,system-ui,Arial;background:#f6faf7;color:#0b1220}
+    header{background:linear-gradient(90deg,rgba(42,161,115,0.06),rgba(42,161,115,0.02));padding:18px 24px;display:flex;align-items:center;justify-content:space-between}
+    .brand{display:flex;gap:12px;align-items:center}
+    .logo{width:42px;height:42px;border-radius:10px;object-fit:cover}
+    nav a{margin-left:16px;color:var(--dark);text-decoration:none;font-weight:600}
+    .container{max-width:980px;margin:28px auto;padding:0 20px}
+    .hero{display:grid;grid-template-columns:1fr 360px;gap:28px;align-items:center}
+    .card{background:var(--card);border-radius:12px;padding:20px;box-shadow:0 6px 20px rgba(7,12,18,0.06)}
+    h1{margin:0;font-size:28px;color:var(--dark)}
+    p.lead{color:var(--muted);margin-top:10px}
+    .cta{margin-top:16px;display:flex;gap:10px}
+    .btn{padding:10px 14px;border-radius:10px;border:0;font-weight:700;cursor:pointer}
+    .btn-primary{background:var(--accent);color:white}
+    .btn-outline{background:transparent;border:2px solid var(--accent);color:var(--accent)}
+    .features{display:flex;gap:14px;margin-top:18px}
+    .feature{flex:1;padding:12px;border-radius:10px;background:#fbfff9;text-align:center}
+    .right-side{display:flex;flex-direction:column;gap:12px}
+    .ambulance{display:flex;gap:12px;align-items:center}
+    .ambulance .icon{font-size:26px}
+    section{margin-top:22px}
+    .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+    footer{margin-top:40px;padding:20px;text-align:center;color:var(--muted)}
+    @media(max-width:900px){.hero{grid-template-columns:1fr;}.grid-3{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <img src="d:\Users\PC\Downloads\Logos Productos Veganos Simple Negro (3).png" alt="Logo Clínica Vida+" class="logo">
+      <div>
+        <div style="font-weight:800">Clínica Salud Vital</div>
+        <div style="font-size:12px;color:var(--muted)">Cuidarte nunca fue tan fácil</div>
+      </div>
+    </div>
+    <nav>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#servicio">Servicio</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="card">
+        <h1>Atención médica cercana y moderna</h1>
+        <p class="lead">Desde San Juan, ofrecemos cuidado integral con profesionales capacitados y tecnología actual. Reservá tu turno y accedé a atención rápida desde tu celular.</p>
+        <div class="cta">
+          <button class="btn btn-primary">Pedir turno</button>
+          <button class="btn btn-outline">Ver servicios</button>
+        </div>
+
+        <div class="features">
+          <div class="feature">
+            <div style="font-weight:700">Consultas</div>
+            <div style="font-size:13px;color:var(--muted)">Médicos generales y especialistas</div>
+          </div>
+          <div class="feature">
+            <div style="font-weight:700">Diagnóstico</div>
+            <div style="font-size:13px;color:var(--muted)">Imagenología y laboratorio</div>
+          </div>
+          <div class="feature">
+            <div style="font-weight:700">Urgencias</div>
+            <div style="font-size:13px;color:var(--muted)">Cobertura 24/7</div>
+          </div>
+        </div>
+      </div>
+
+      <aside class="right-side">
+        <div class="card">
+          <strong>Ambulancia 24/7</strong>
+          <div class="ambulance" style="margin-top:8px">
+            <div class="icon">🚑</div>
+            <div style="color:var(--muted);font-size:14px">Atención rápida y segura, las 24 horas. Siempre listos para ayudarte.</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <strong>Atención por app</strong>
+          <p style="color:var(--muted);margin-top:8px">Agendá turnos, chateá con tu médico y recibí recordatorios. Todo desde tu celular.</p>
+        </div>
+      </aside>
+    </section>
+
+    <section id="servicios" class="card">
+      <h2 style="margin-top:0">Servicios principales</h2>
+      <div class="grid-3" style="margin-top:12px">
+        <div>
+          <h3 style="margin:6px 0">Pediatría</h3>
+          <p style="color:var(--muted);font-size:14px">Cuidado para niños con especialistas y espacios pensados para ellos.</p>
+        </div>
+        <div>
+          <h3 style="margin:6px 0">Cardiología</h3>
+          <p style="color:var(--muted);font-size:14px">Evaluaciones y estudios con tecnología moderna.</p>
+        </div>
+        <div>
+          <h3 style="margin:6px 0">Imágenes y Laboratorio</h3>
+          <p style="color:var(--muted);font-size:14px">Resultados confiables y entregas rápidas.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre" class="card">
+      <h2 style="margin-top:0">Sobre nosotros</h2>
+      <p style="color:var(--muted);margin-top:8px">Ubicados en San Juan, ofrecemos atención de calidad con un equipo profesional y un enfoque humano. Buscamos brindar confianza y calidez a cada persona que nos elige.</p>
+    </section>
+
+    <section id="contacto" class="card">
+      <h2 style="margin-top:0">Contactanos</h2>
+      <p style="color:var(--muted)">Tel: (0264) 123-4567 • Email: info@clinicavida.com</p>
+      <p style="color:var(--muted);font-size:13px">Dirección: Av. Central 123, San Juan</p>
+      <div style="margin-top:12px;display:flex;gap:10px">
+        <input placeholder="Nombre" style="flex:1;padding:10px;border-radius:8px;border:1px solid #e6eee7" />
+        <input placeholder="Teléfono o email" style="flex:1;padding:10px;border-radius:8px;border:1px solid #e6eee7" />
+        <button class="btn btn-primary">Enviar</button>
+      </div>
+    </section>
+
+    <footer>
+      © <strong>Clínica Salud Vital</strong> — Comprometidos con la salud de San Juan
+    </footer>
+  </main>
+</body>
+</html>
+            

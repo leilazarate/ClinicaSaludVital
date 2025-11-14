@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clínica Salud</title>
+
+  <!-- Fuentes -->
+  <link href="https://fonts.googleapis.com/css2?family=Inria+Serif&family=Kaisei+Decol&family=Joan&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inria Serif', serif;
+      background-color: #00677D;
+      color: white;
+    }
+
+    /* CABECERA */
+    header {
+      background-color: white;
+      color: black;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 25px 60px;
+      border-bottom: 1px solid #ddd;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* sombra sutil */
+    }
+
+    .logo img {
+      height: 80px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: black;
+      margin-left: 35px;
+      font-size: 18px;
+      font-weight: 600;
+    }
+
+    /* SECCIONES PRINCIPALES */
+    .section {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      font-size: 11px;
+      font-family: 'Inria Serif', serif;
+    }
+
+    .section img {
+      height: 40px;
+      margin-right: 10px;
+    }
+
+    .divider {
+      height: 2px;
+      background-color: white;
+      margin: 10px 0;
+    }
+
+    /* SECCIONES MÁS ANCHAS */
+    .wide {
+      padding: 50px 120px;
+      font-size: 16px;
+    }
+
+    .wide img {
+      height: 200px;
+      margin-right: 30px;
+    }
+
+    .kaisei {
+      font-family: 'Kaisei Decol', serif;
+      font-size: 16px;
+    }
+
+    /* PIE DE PÁGINA */
+    footer {
+      background-color: white;
+      color: black;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding: 30px 60px;
+      font-family: 'Joan', serif;
+    }
+
+    footer .izquierda p {
+      margin: 5px 0;
+    }
+
+    footer .izquierda a {
+      color: black;
+      text-decoration: underline;
+    }
+
+    footer img {
+      height: 120px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- CABECERA -->
+  <header>
+    <div class="logo">
+      <img src="d:\Users\PC\Pictures\Logos Productos Veganos Simple Negro (4).png" alt="Logo de la clínica">
+    </div>
+    <nav>
+      <a href="nosotros.html">Nosotros</a>
+      <a href="usuarios.html">Usuarios</a>
+    </nav>
+  </header>
+
+  <!-- PRIMERA SECCIÓN: WHATSAPP -->
+  <section class="section">
+    <div style="display: flex; align-items: center;">
+      <img src="d:\Users\PC\Pictures\Screenshots\Captura de pantalla (57).png" alt="WhatsApp">
+      <span>Habla con nosotros</span>
+    </div>
+    <div>Atención de lunes a sábado de 7:00 a 21:00 hs.</div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- SEGUNDA SECCIÓN: TURNOS -->
+  <section class="section wide">
+    <div><img src="https://servis.ai/wp-content/uploads/2023/01/AdobeStock_189715206-scaled-1-1024x683.jpeg" alt="Turnos"></div>
+    <div>Turnos online y presencial</div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- TERCERA SECCIÓN: INFORME -->
+  <section class="section wide">
+    <div><div>Informe online</div></div>
+    <div><img src="https://www.palexsolucioneshospitalarias.es/wp-content/uploads/2023/09/quirurgicos-reutilizables-400x516.png" alt="Informe"></div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- CUARTA SECCIÓN: AGENDA -->
+  <section class="section wide kaisei">
+    <div><img src="https://ginefem.com/wp-content/uploads/2021/11/salud-integral-mujer.png" alt="Celular"></div>
+    <div>
+      Agendá tus turnos,<br>
+      Chateá con tu médico y<br>
+      Descubrí tips saludables<br>
+      Todo desde tu celular.
+    </div>
+  </section>
+
+  <!-- PIE DE PÁGINA -->
+  <footer>
+    <div class="izquierda">
+      <p><strong>Redes</strong></p>
+      <div class="redes">
+      <a href="https://www.instagram.com" target="_blank">
+        <img src="d:\Users\PC\Pictures\Screenshots\Captura de pantalla (53).png" alt="Instagram" class="icono-red">
+      </a>
+      <a href="https://www.facebook.com" target="_blank">
+        <img src="d:\Users\PC\Pictures\Screenshots\Captura de pantalla (54).png" alt="Facebook" class="icono-red">
+      </a>
+    </div>
+      <p>Dirección: Calle Bartolomé Mitre 366 (O) - Capital San Juan</p>
+      <p><a href="https://www.google.com/maps?q=Calle+Bartolome+Mitre+366+O+Capital+San+Juan" target="_blank">Ver mapa</a></p>
+    </div>
+    <div class="derecha">
+      <img src="d:\Users\PC\Pictures\Logos Productos Veganos Simple Negro (4).png" alt="logo de la clinica">
+    </div>
+  </footer>
+
+</body>
+</html>

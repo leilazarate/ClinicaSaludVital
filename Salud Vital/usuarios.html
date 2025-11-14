@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Usuarios | Clínica Salud Vital</title>
+
+  <!-- Fuentes -->
+  <link href="https://fonts.googleapis.com/css2?family=Inria+Serif&family=Kaisei+Decol&family=Joan&family=Abhaya+Libre:wght@600&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      background-color: #00677D;
+      color: white;
+    }
+
+    /* CABECERA */
+    header {
+      background-color: white;
+      color: black;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 25px 60px;
+      border-bottom: 1px solid #ddd;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .logo img {
+      height: 80px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: black;
+      margin-left: 35px;
+      font-size: 18px;
+      font-weight: 600;
+    }
+
+    /* CONTENIDO */
+    main {
+      text-align: center;
+      padding: 60px 80px;
+    }
+
+    .texto-principal {
+      font-family: 'Joan', serif;
+      font-size: 20px;
+      margin-bottom: 40px;
+    }
+
+    .divider {
+      height: 2px;
+      background-color: white;
+      margin: 30px auto;
+      width: 80%;
+    }
+
+    /* CUADRÍCULA DE ESPECIALIDADES */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 60px;
+      justify-items: center;
+      align-items: start;
+      margin: 50px auto;
+      max-width: 1000px;
+    }
+
+    .card {
+      text-align: center;
+    }
+
+    .card img {
+      width: 220px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 12px;
+      margin-bottom: 15px;
+    }
+
+    .card h3 {
+      font-family: 'Abhaya Libre', serif;
+      font-weight: 600;
+      font-size: 22px;
+      margin-bottom: 5px;
+    }
+
+    .card p {
+      font-family: 'Joan', serif;
+      font-size: 16px;
+      line-height: 1.4;
+    }
+
+    /* SECCIÓN FINAL */
+    .final {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 40px 120px 60px 120px;
+      font-family: 'Abhaya Libre', serif;
+      font-weight: 600;
+      font-size: 22px;
+    }
+
+    /* PIE DE PÁGINA */
+    footer {
+      background-color: white;
+      color: black;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding: 30px 60px;
+      font-family: 'Joan', serif;
+    }
+
+    footer .izquierda p {
+      margin: 5px 0;
+    }
+
+    footer .izquierda a {
+      color: black;
+      text-decoration: underline;
+    }
+
+    footer img {
+      height: 120px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- CABECERA -->
+  <header>
+    <div class="logo">
+      <img src="d:\Users\PC\Pictures\Logos Productos Veganos Simple Negro (4).png" alt="Logo de la clínica">
+    </div>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="nosotros.html">Nosotros</a>
+    </nav>
+  </header>
+
+  <!-- CONTENIDO -->
+  <main>
+    <div class="texto-principal">
+      Clínica Salud Vital se especializa en Medicina Clínica, Cardiología, Pediatría y Traumatología.
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- CUADRÍCULA DE ESPECIALIDADES -->
+    <div class="grid">
+      <div class="card">
+        <img src="https://img.freepik.com/fotos-premium/joven-doctora-escucha-cofre-corazon-paciente-masculino-estetoscopio-reunion-clinica_1212-9974.jpg?semt=ais_hybrid&w=740&q=80" alt="Medicina Clínica">
+        <h3>Medicina Clínica</h3>
+        <p>Dra. Laura Videla<br>Mat. 14020</p>
+      </div>
+
+      <div class="card">
+        <img src="https://www.savalnet.com.py/medios/thumbnail/SAVALnet_PY/mm/noticias/2017/716524200ng001-tn-280x210-1-FFFFFF.jpg" alt="Pediatría">
+        <h3>Pediatría</h3>
+        <p>Dra. Ana Vega<br>Mat. 856</p>
+      </div>
+
+      <div class="card">
+        <img src="https://elgeaditraumatologia.com/wp-content/uploads/2024/01/traumatologo-analizando-movimiento-escapula.jpg" alt="Traumatología">
+        <h3>Traumatología</h3>
+        <p>Dr. Federico Lemos<br>Mat. 736</p>
+      </div>
+
+      <div class="card">
+        <img src="https://uicardiologia.com/wp-content/uploads/2021/03/Captura-de-pantalla-2021-03-15-a-las-19.31.05.png" alt="Cardiología">
+        <h3>Cardiología</h3>
+        <p>Dr. Gerardo López<br>Mat. 12125</p>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- SECCIÓN FINAL -->
+    <div class="final">
+      
+      <a href="formulario.html#turnos">Turnos</a>
+      
+      <a href="formulario.html#informe">Informe</a>
+    </div>
+  </main>
+
+  
+  <footer>
+    <div class="izquierda">
+      <p><strong>Redes</strong></p>
+      <p>Dirección: Calle Bartolomé Mitre 366 (O) - Capital San Juan</p>
+      <p><a href="https://www.google.com/maps?q=Calle+Bartolome+Mitre+366+O+Capital+San+Juan" target="_blank">Ver mapa</a></p>
+    </div>
+    <div class="derecha">
+      <img src="d:\Users\PC\Pictures\Logos Productos Veganos Simple Negro (4).png" alt="Logo de la clinica">
+    </div>
+  </footer>
+
+</body>
+</html>
